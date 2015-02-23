@@ -2,7 +2,7 @@
     "name": "amazon-cloudwatch-to-slack",
     "description": "Relay alerts from Amazon CloudWatch to a Slack.com room.",
     "logo": "https://i.imgur.com/wxQoIRH.png",
-    "repository": "https://github.com/esanchezm/amazon-cloudwatch-to-slack",
+    "repository": "https://github.com/sparkgene/amazon-cloudwatch-to-slack",
     "keywords": ["aws", "cloudwatch", "slack"],
     "success_url": "/",
     "env": {
@@ -10,8 +10,8 @@
             "description": "Name of your Slack team",
             "required": true
         },
-        "SLACK_TOKEN": {
-            "description": "Secret Slack token",
+        "SLACK_ENDPOINT": {
+            "description": "Slack endpoint url",
             "required": true
         },
         "SLACK_CHANNEL": {

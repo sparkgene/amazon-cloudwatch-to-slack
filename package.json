@@ -1,7 +1,7 @@
 {
   "name": "amazon-cloudwatch-to-slack",
   "description": "Relay messages from Amazon SNS to a Slack room",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": true,
   "engines": {
     "node": "0.10.x"
