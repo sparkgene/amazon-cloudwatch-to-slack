@@ -6,40 +6,24 @@
     "keywords": ["aws", "cloudwatch", "slack"],
     "success_url": "/",
     "env": {
-        "SLACK_COMPANY_NAME": {
-            "description": "Name of your Slack team",
-            "required": true
-        },
         "SLACK_ENDPOINT": {
             "description": "Slack endpoint url",
             "required": true
         },
         "SLACK_CHANNEL": {
-            "description": "Slack channel to use"
+            "description": "Slack channel to use",
+            "value": "#alert",
+            "required": true
         },
         "SLACK_USERNAME": {
             "description": "Slack user name to use",
-            "value": "AWS CloudWatch",
-            "required": false
+            "value": "neso monitor",
+            "required": true
         },
-        "SLACK_ICON_URL": {
+        "SLACK_ICON": {
             "description": "Slack icon to use",
-            "value": "https://i.imgur.com/wxQoIRH.png",
-            "required": false
-        },
-        "SLACK_SES_CHANNEL": {
-            "description": "Slack channel to use for SES notifications",
-            "required": false
-        },
-        "SLACK_SES_USERNAME": {
-            "description": "Slack user name to use for SES notifications",
-            "value": "AWS SES",
-            "required": false
-        },
-        "SLACK_SES_ICON_URL": {
-            "description": "Slack icon to use for SES notifications",
-            "value": "https://i.imgur.com/WnBZVVb.png",
-            "required": false
+            "value": ":traffic_light:",
+            "required": true
         }
     }
 }
